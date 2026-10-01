@@ -7,6 +7,8 @@ authors:
 version: 1.0.0
 date-released: 2026-10-01
 license: MIT
+repository-code: "https://github.com/Navid-A-08/False-Strategy-Problem"
+url: "https://github.com/Navid-A-08/False-Strategy-Problem"
 keywords:
   - backtest overfitting
   - multiple testing
