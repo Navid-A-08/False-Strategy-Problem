@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The False Strategy Problem in Machine Learning for Finance: Why It Is Dangerously Easy to Discover 'Profitable' Rules That Do Not Exist"
+authors:
+  - family-names: Abdollahzadeh
+    given-names: Navid
+version: 1.0.0
+date-released: 2026-10-01
+license: MIT
+keywords:
+  - backtest overfitting
+  - multiple testing
+  - deflated Sharpe ratio
+  - effective number of tests
+  - machine learning in finance
+preferred-citation:
+  type: report
+  title: "The False Strategy Problem in Machine Learning for Finance: Why It Is Dangerously Easy to Discover 'Profitable' Rules That Do Not Exist"
+  authors:
+    - family-names: Abdollahzadeh
+      given-names: Navid
+  year: 2026
+  month: 10
+  notes: "Working paper"

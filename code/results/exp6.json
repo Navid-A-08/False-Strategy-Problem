@@ -1,0 +1,29 @@
+{
+ "gaussian": {
+  "mean_best_is_gross": 0.8771134570295089,
+  "mean_best_is_net": 0.8571640242609431,
+  "mean_oos_gross": -0.02599417321876045,
+  "mean_oos_net": -0.048588434416176725,
+  "share_is_gt1": 0.395,
+  "share_oos_net_pos": 0.475,
+  "p90_best_is": 1.40119367301994,
+  "rankcorr": 0.0024182184786278537,
+  "pbo_mean": 0.49037684537684545,
+  "k_eff": 8.972669265301139
+ },
+ "garch": {
+  "mean_best_is_gross": 0.8466423130859145,
+  "mean_best_is_net": 0.8252077624307365,
+  "mean_oos_gross": 0.01081167612386787,
+  "mean_oos_net": -0.015641693617402884,
+  "share_is_gt1": 0.36,
+  "share_oos_net_pos": 0.51,
+  "p90_best_is": 1.3374743461926892,
+  "rankcorr": 0.001921109433575996,
+  "pbo_mean": 0.4912937062937063,
+  "k_eff": 8.112471405560468,
+  "excess_kurtosis": 12.975183395404922,
+  "acf_sq_lag1": 0.16852233274298192
+ },
+ "cost_bps": 2.0
+}
