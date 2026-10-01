@@ -11,6 +11,7 @@
 \usepackage[numbers]{natbib}
 \usepackage{xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\urlstyle{same}
 \captionsetup{font=small,labelfont=bf}
 \setlist{itemsep=2pt,topsep=3pt}
 \setlength{\parskip}{3pt}
@@ -63,7 +64,7 @@ When many trading strategies are tested on the same historical data and only the
 \end{center}
 \vfill
 \begin{center}
-\footnotesize Code and results for every number, table and figure are provided as supplementary material.
+\footnotesize Code and results for every number, table and figure: \url{https://github.com/Navid-A-08/False-Strategy-Problem}
 \end{center}
 \end{titlepage}
 
@@ -154,7 +155,7 @@ which counts each dominant eigenvalue as one test and lets the remaining varianc
 %=====================================================
 \section{Simulation study}\label{sec:sim}
 
-All experiments use synthetic data in which the true answer is known: there is no exploitable signal unless one is deliberately inserted. This makes it possible to measure the false strategy problem exactly, which is impossible with real market data. All code was written in Python (NumPy, SciPy, scikit-learn) with fixed random seeds. The code, result files and data needed to reproduce every number, table and figure in this paper are provided as supplementary material.
+All experiments use synthetic data in which the true answer is known: there is no exploitable signal unless one is deliberately inserted. This makes it possible to measure the false strategy problem exactly, which is impossible with real market data. All code was written in Python (NumPy, SciPy, scikit-learn) with fixed random seeds. The code and result files needed to reproduce every number, table and figure in this paper are available at \url{https://github.com/Navid-A-08/False-Strategy-Problem}.
 
 \subsection{Experiment 1: the best of $K$ worthless strategies}
 \textbf{Design.} I draw $K$ independent strategies, each with $T = 1{,}260$ daily returns (five years) that are i.i.d.\ normal with mean zero and 1\% daily volatility. The true Sharpe ratio of every strategy is exactly zero. I select the strategy with the highest annualized in-sample Sharpe ratio and then evaluate it on a fresh five-year sample from the same process. I repeat this between 40 and 2{,}000 times for each $K \in \{1, 10, 100, 1{,}000, 10{,}000\}$.
